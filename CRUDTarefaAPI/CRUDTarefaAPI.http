@@ -1,6 +1,0 @@
-@CRUDTarefaAPI_HostAddress = http://localhost:5298
-
-GET {{CRUDTarefaAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
