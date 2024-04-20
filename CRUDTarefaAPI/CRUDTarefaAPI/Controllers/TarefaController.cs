@@ -1,8 +1,6 @@
 ﻿using CRUDTarefaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace CRUDTarefaAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -17,25 +15,67 @@ namespace CRUDTarefaAPI.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult<IEnumerable<Tarefa>> Get()
         {
-            return new string[] { "value1", "value2" };
+            List<Tarefa> tarefas = _appDBContext.Terefas.ToList();
+
+            return Ok(tarefas);
         }
 
         [HttpGet("{id}")]
-        public string Get(int id)
+        public ActionResult<Tarefa> Get(string id)
         {
-            return "value";
+            Tarefa? tarefa = _appDBContext.Terefas.FirstOrDefault(x => x.Id == id);
+
+            if (tarefa == null)
+                return NotFound();
+
+            return Ok(tarefa);
         }
 
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult Post([FromBody] Tarefa tarefa)
         {
+            _appDBContext.Terefas.Add(tarefa);
+
+            return CreatedAtAction(nameof(Get), new { tarefa.Id }, tarefa);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult Put(string id, [FromBody] Tarefa tarefa)
+        {
+            if (id != tarefa.Id)
+            {
+                return BadRequest();
+            }
+
+            Tarefa? tarefaParaAlteracao = _appDBContext.Terefas.FirstOrDefault(x => x.Id == id);
+
+            if(tarefaParaAlteracao == null)
+            {
+                return NotFound();
+            }
+
+            tarefaParaAlteracao.Nome = tarefa.Nome;
+            tarefaParaAlteracao.Descricao = tarefa.Descricao;
+            tarefaParaAlteracao.Status = tarefa.Status;
+
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(string id)
         {
+            var tarefaParaExclusao = _appDBContext.Terefas.FirstOrDefault(x => x.Id == id);
+
+            if (tarefaParaExclusao == null)
+            {
+                return NotFound();
+            }
+
+            _appDBContext.Terefas.Remove(tarefaParaExclusao);
+
+            return NoContent();
         }
     }
 }
