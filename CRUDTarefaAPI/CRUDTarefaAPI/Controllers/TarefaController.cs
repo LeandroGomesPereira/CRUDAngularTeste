@@ -1,5 +1,6 @@
 ﻿using CRUDTarefaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
 namespace CRUDTarefaAPI.Controllers
 {
@@ -36,7 +37,12 @@ namespace CRUDTarefaAPI.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] Tarefa tarefa)
         {
+            if (string.IsNullOrWhiteSpace(tarefa.Id))
+                tarefa.Id = Guid.NewGuid().ToString();
+
             _appDBContext.Terefas.Add(tarefa);
+
+            _appDBContext.SaveChanges();
 
             return CreatedAtAction(nameof(Get), new { tarefa.Id }, tarefa);
         }
@@ -60,13 +66,15 @@ namespace CRUDTarefaAPI.Controllers
             tarefaParaAlteracao.Descricao = tarefa.Descricao;
             tarefaParaAlteracao.Status = tarefa.Status;
 
+            _appDBContext.SaveChanges();
+
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public ActionResult Delete(string id)
         {
-            var tarefaParaExclusao = _appDBContext.Terefas.FirstOrDefault(x => x.Id == id);
+            Tarefa? tarefaParaExclusao = _appDBContext.Terefas.FirstOrDefault(x => x.Id == id);
 
             if (tarefaParaExclusao == null)
             {
@@ -74,6 +82,8 @@ namespace CRUDTarefaAPI.Controllers
             }
 
             _appDBContext.Terefas.Remove(tarefaParaExclusao);
+
+            _appDBContext.SaveChanges();
 
             return NoContent();
         }
