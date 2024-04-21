@@ -1,6 +1,5 @@
 ﻿using CRUDTarefaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 
 namespace CRUDTarefaAPI.Controllers
 {
