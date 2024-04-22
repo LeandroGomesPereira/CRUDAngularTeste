@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|f:\\projetocrudtarefas\\crudangularteste\\crudtarefaapi\\crudtarefaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|solutionrelative:crudtarefaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|f:\\projetocrudtarefas\\crudangularteste\\crudtarefaapi\\crudtarefaapi\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|solutionrelative:crudtarefaapi\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|f:\\projetocrudtarefas\\crudangularteste\\crudtarefaapi\\crudtarefaapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|solutionrelative:crudtarefaapi\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|f:\\projetocrudtarefas\\crudangularteste\\crudtarefaapi\\crudtarefaapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|solutionrelative:crudtarefaapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|f:\\projetocrudtarefas\\crudangularteste\\crudtarefaapi\\crudtarefaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|solutionrelative:crudtarefaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|f:\\projetocrudtarefas\\crudangularteste\\crudtarefaapi\\crudtarefaapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|solutionrelative:crudtarefaapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|f:\\projetocrudtarefas\\crudangularteste\\crudtarefaapi\\crudtarefaapi\\migrations\\20240419192806_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F983AE6-7568-48CC-B8A0-4A7786A00D85}|CRUDTarefaAPI\\CRUDTarefaAPI.csproj|solutionrelative:crudtarefaapi\\migrations\\20240419192806_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 171,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240419192806_InitialMigration.cs",
+              "DocumentMoniker": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Migrations\\20240419192806_InitialMigration.cs",
+              "RelativeDocumentMoniker": "CRUDTarefaAPI\\Migrations\\20240419192806_InitialMigration.cs",
+              "ToolTip": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Migrations\\20240419192806_InitialMigration.cs",
+              "RelativeToolTip": "CRUDTarefaAPI\\Migrations\\20240419192806_InitialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T19:28:06.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "CRUDTarefaAPI\\Controllers\\TarefaController.cs",
+              "ToolTip": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "CRUDTarefaAPI\\Controllers\\TarefaController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T01:00:42.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CRUDTarefaAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CRUDTarefaAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T00:59:50.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDTarefaAPI\\Program.cs",
+              "ToolTip": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Program.cs",
+              "RelativeToolTip": "CRUDTarefaAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T00:22:19.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Models\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "CRUDTarefaAPI\\Models\\AppDBContext.cs",
+              "ToolTip": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Models\\AppDBContext.cs",
+              "RelativeToolTip": "CRUDTarefaAPI\\Models\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T00:43:49.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUDTarefaAPI\\appsettings.json",
+              "ToolTip": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\appsettings.json",
+              "RelativeToolTip": "CRUDTarefaAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-19T00:26:04.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Models\\Tarefa.cs",
+              "RelativeDocumentMoniker": "CRUDTarefaAPI\\Models\\Tarefa.cs",
+              "ToolTip": "F:\\ProjetoCRUDTarefas\\CRUDAngularTeste\\CRUDTarefaAPI\\CRUDTarefaAPI\\Models\\Tarefa.cs",
+              "RelativeToolTip": "CRUDTarefaAPI\\Models\\Tarefa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T00:24:40.063Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
