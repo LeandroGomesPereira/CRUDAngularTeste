@@ -24,7 +24,7 @@ export class TarefaService {
   ObtemTarefa(id: string): Observable<Tarefa>{
     const obtemURL = `${this.url}/${id}`;
 
-    return this.http.get<Tarefa>(this.url);
+    return this.http.get<Tarefa>(obtemURL);
   }
 
   InsereTarefa(tarefa: Tarefa): Observable<any>{
@@ -32,7 +32,9 @@ export class TarefaService {
   }
 
   AtualizaTarefa(tarefa: Tarefa): Observable<any>{
-    return this.http.put<Tarefa>(this.url, tarefa, httpOptions);
+    const obtemURL = `${this.url}/${tarefa.id}`;
+
+    return this.http.put<Tarefa>(obtemURL, tarefa, httpOptions);
   }
 
   ExcluiTarefa(id: string): Observable<any>{

@@ -1,5 +1,5 @@
 export class Tarefa{
-  id: string | undefined;
+  id!: string;
   nome: string | undefined;
   descricao: string | undefined;
   status: boolean | undefined;

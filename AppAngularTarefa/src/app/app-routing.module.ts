@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { TarefaComponent } from './Components/tarefa/tarefa.component';
+import { TarefaComponent } from './components/tarefa/tarefa.component';
 
 const routes: Routes = [{
   path: 'tarefa', component: TarefaComponent
