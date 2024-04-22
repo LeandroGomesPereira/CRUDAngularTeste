@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDTarefaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0e34c4b6a6137094889165cfadf9276a26c6ad4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1de4919068af3b2369aaac893462cc5f476f63d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDTarefaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDTarefaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
