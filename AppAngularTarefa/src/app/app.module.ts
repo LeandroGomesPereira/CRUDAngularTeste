@@ -9,7 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TarefaService } from './tarefa.service';
-import { TarefaComponent } from './components/tarefa/tarefa.component';
+import { TarefaComponent } from './Components/tarefa/tarefa.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
