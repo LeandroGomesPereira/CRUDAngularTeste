@@ -3,4 +3,5 @@ export class Tarefa{
   nome: string | undefined;
   descricao: string | undefined;
   status: boolean | undefined;
+  statusDescricao: string | undefined;
 }

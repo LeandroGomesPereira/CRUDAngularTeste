@@ -28,6 +28,7 @@ export class TarefaComponent implements OnInit{
   ngOnInit(): void {
     this.tarefaSevice.ListaTarefas().subscribe(resultado => {
       this.tarefas = resultado;
+      this.processaDescricaoStatus();
     });
   }
 
@@ -75,6 +76,7 @@ export class TarefaComponent implements OnInit{
 
     this.tarefaSevice.ListaTarefas().subscribe(resultado => {
       this.tarefas = resultado;
+      this.processaDescricaoStatus();
     });
   }
 
@@ -101,7 +103,19 @@ export class TarefaComponent implements OnInit{
       alert('Tarefa exluída com sucesso');
       this.tarefaSevice.ListaTarefas().subscribe(resultado => {
         this.tarefas = resultado;
+        this.processaDescricaoStatus();
       });
+    });
+  }
+
+  processaDescricaoStatus(): void{
+    this.tarefas?.forEach(registro => {
+      if(registro.status){
+        registro.statusDescricao = 'Sim';
+      }
+      else{
+        registro.statusDescricao = 'Não';
+      }
     });
   }
 

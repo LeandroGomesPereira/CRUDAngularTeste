@@ -1,4 +1,5 @@
 <div class="container p-5" *ngIf="tabelaVisivel">
+  <h4>Avaliação To Do List.</h4>
   <div class="border boder-light rounded p-5">
         <button type="button" class="btn btn-sm btn-secondary" (click)="obtemFormularioCadastro()">
           Nova Tarefa
@@ -10,13 +11,13 @@
       <tr class="thead-light">
         <th>Nome</th>
         <th>Descrição</th>
-        <th>Status</th>
+        <th>Tarefa Concluída</th>
       </tr>
 
       <tr *ngFor="let tarefaRow of tarefas">
         <td>{{tarefaRow.nome}}</td>
         <td>{{tarefaRow.descricao}}</td>
-        <td>{{tarefaRow.status}}</td>
+        <td>{{tarefaRow.statusDescricao}}</td>
 
         <td>
           <button type="button" class="btn btn-sm btn-outline-info" (click)="obtemFormularioAtualizacao(tarefaRow.id)">Atualizar</button>
@@ -50,7 +51,7 @@
         <div class="p-2">
           <div class="form-check">
             <input type="checkbox" class="form-check-input" [formControlName]="'status'" id="statusCheckBox"/>
-            <label class="form-check-label" for="statusCheckBox">Status</label>
+            <label class="form-check-label" for="statusCheckBox">Tarefa Concluída</label>
           </div>
         </div>
 
